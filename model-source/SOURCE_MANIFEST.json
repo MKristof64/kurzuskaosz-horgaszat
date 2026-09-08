@@ -1,0 +1,69 @@
+{
+  "purpose": "Exact source-provenance bundle for the final Blender fish artifacts",
+  "blender": "4.5.13 LTS",
+  "source_files": [
+    {
+      "path": "work/build_fish.py",
+      "sha256": "a98ec01ef1ed3fe321ee9d87aa07489cd362386ad4c059b89c6728c7622a3622",
+      "bytes": 22402
+    },
+    {
+      "path": "work/fish_fins.py",
+      "sha256": "4d40eef3578d69eea2fe2ab56d1dc64b5b0e31f874554a37b9d04cd0313b7bbf",
+      "bytes": 13400
+    },
+    {
+      "path": "work/deepen_labels.py",
+      "sha256": "ecfbe47cd978434f134062f25855eab7798fca6474b88c9cca2deeacf2f279d0",
+      "bytes": 824
+    },
+    {
+      "path": "work/refine_label_spacing.py",
+      "sha256": "70cbdf8867e19df27bd0cae52c6eddbe8ee4e97aed4b01690f0195a868231e71",
+      "bytes": 828
+    },
+    {
+      "path": "work/export_fish.py",
+      "sha256": "51be8080071f1b0629d348dfebda5dc76aaa0959a89e2ce5107eef8a81de9387",
+      "bytes": 2057
+    },
+    {
+      "path": "work/render_fish_final.py",
+      "sha256": "e186d08366090506c31256f4c690b6962b41c9b0fc9c12b558c99027a6260ef9",
+      "bytes": 725
+    },
+    {
+      "path": "work/render_labels_final.py",
+      "sha256": "3907b7176467de4cbed3a7715aa582e5ef4be166a2568a64730ea33e6e7a27b6",
+      "bytes": 516
+    },
+    {
+      "path": "outputs/ellenorzes.json",
+      "sha256": "91c6b3cd833e3dc9261df12b8015a6b79510e29ad53a4e420e582a221f2c7f72",
+      "bytes": 18118
+    },
+    {
+      "path": "outputs/assets/PatrickHand-Regular.ttf",
+      "sha256": "8a384204c8ab3e9ed82954d46d8110a66fb5d7acf8f6b64c6f3980c1d0c01993",
+      "bytes": 152636
+    },
+    {
+      "path": "outputs/assets/OFL.txt",
+      "sha256": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1",
+      "bytes": 4376
+    },
+    {
+      "path": "work/export_story.py",
+      "sha256": "1f344a55ca44330e998c4b02001cccfe7332c70cbc4aee5e07455a08182f2405",
+      "bytes": 1661
+    },
+    {
+      "path": "work/export_story_bare.py",
+      "sha256": "6682f72cb90d23111be95b0c08604484518617641c9fadfa66aa878ba3a3b525",
+      "bytes": 13560
+    }
+  ],
+  "missing_required_source_inputs": [],
+  "generated_texture": "Hal_skin_4K.png is procedurally produced by work/build_fish.py; no external texture input",
+  "byte_identical_copies": true
+}

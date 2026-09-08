@@ -1,0 +1,697 @@
+{
+  "blender_version": "4.5.13 LTS",
+  "actual_renderable_mesh_triangles": 8866914,
+  "paper_top_triangles": 3641344,
+  "minimum_required": 3000000,
+  "minimum_pass": true,
+  "text_blocks": 32,
+  "causes": 20,
+  "texts": [
+    {
+      "name": "Vállalatnév • KurzusKáosz Kft.",
+      "text": "KurzusKáosz\nKft.",
+      "category": "",
+      "mesh_object": "Vállalatnév • KurzusKáosz Kft.",
+      "editable_object": "EDIT | Vállalatnév • KurzusKáosz Kft."
+    },
+    {
+      "name": "Ember • cím",
+      "text": "Ember",
+      "category": "Ember",
+      "mesh_object": "Ember • cím",
+      "editable_object": "EDIT | Ember • cím"
+    },
+    {
+      "name": "Ember • alcím",
+      "text": "(hallgatók, oktatók)",
+      "category": "Ember",
+      "mesh_object": "Ember • alcím",
+      "editable_object": "EDIT | Ember • alcím"
+    },
+    {
+      "name": "Folyamatok • cím",
+      "text": "Folyamatok",
+      "category": "Folyamatok",
+      "mesh_object": "Folyamatok • cím",
+      "editable_object": "EDIT | Folyamatok • cím"
+    },
+    {
+      "name": "Folyamatok • alcím",
+      "text": "(eljárások, szabályok)",
+      "category": "Folyamatok",
+      "mesh_object": "Folyamatok • alcím",
+      "editable_object": "EDIT | Folyamatok • alcím"
+    },
+    {
+      "name": "Eszközök • cím",
+      "text": "Eszközök",
+      "category": "Eszközök",
+      "mesh_object": "Eszközök • cím",
+      "editable_object": "EDIT | Eszközök • cím"
+    },
+    {
+      "name": "Eszközök • alcím",
+      "text": "(rendszerek, infrastruktúra)",
+      "category": "Eszközök",
+      "mesh_object": "Eszközök • alcím",
+      "editable_object": "EDIT | Eszközök • alcím"
+    },
+    {
+      "name": "Külső környezet • cím",
+      "text": "Külső környezet",
+      "category": "Külső környezet",
+      "mesh_object": "Külső környezet • cím",
+      "editable_object": "EDIT | Külső környezet • cím"
+    },
+    {
+      "name": "Külső környezet • alcím",
+      "text": "(szabályozás, egyéb tényezők)",
+      "category": "Külső környezet",
+      "mesh_object": "Külső környezet • alcím",
+      "editable_object": "EDIT | Külső környezet • alcím"
+    },
+    {
+      "name": "Szervezet • cím",
+      "text": "Szervezet",
+      "category": "Szervezet",
+      "mesh_object": "Szervezet • cím",
+      "editable_object": "EDIT | Szervezet • cím"
+    },
+    {
+      "name": "Szervezet • alcím",
+      "text": "(kommunikáció, struktúra)",
+      "category": "Szervezet",
+      "mesh_object": "Szervezet • alcím",
+      "editable_object": "EDIT | Szervezet • alcím"
+    },
+    {
+      "name": "Ember • ok 01",
+      "text": "Hiányos tájékozottság",
+      "category": "Ember",
+      "mesh_object": "Ember • ok 01",
+      "editable_object": "EDIT | Ember • ok 01"
+    },
+    {
+      "name": "Ember • ok 02",
+      "text": "Eltérő elvárások\n(hallgatók – oktatók)",
+      "category": "Ember",
+      "mesh_object": "Ember • ok 02",
+      "editable_object": "EDIT | Ember • ok 02"
+    },
+    {
+      "name": "Ember • ok 03",
+      "text": "Késői jelentkezés",
+      "category": "Ember",
+      "mesh_object": "Ember • ok 03",
+      "editable_object": "EDIT | Ember • ok 03"
+    },
+    {
+      "name": "Ember • ok 04",
+      "text": "Alacsony digitális\nkompetencia",
+      "category": "Ember",
+      "mesh_object": "Ember • ok 04",
+      "editable_object": "EDIT | Ember • ok 04"
+    },
+    {
+      "name": "Folyamatok • ok 01",
+      "text": "Bonyolult, nem egyértelmű\nkurzusfelvételi eljárás",
+      "category": "Folyamatok",
+      "mesh_object": "Folyamatok • ok 01",
+      "editable_object": "EDIT | Folyamatok • ok 01"
+    },
+    {
+      "name": "Folyamatok • ok 02",
+      "text": "Nem átlátható előfeltételek",
+      "category": "Folyamatok",
+      "mesh_object": "Folyamatok • ok 02",
+      "editable_object": "EDIT | Folyamatok • ok 02"
+    },
+    {
+      "name": "Folyamatok • ok 03",
+      "text": "Rugalmatlan módosítási\nlehetőségek",
+      "category": "Folyamatok",
+      "mesh_object": "Folyamatok • ok 03",
+      "editable_object": "EDIT | Folyamatok • ok 03"
+    },
+    {
+      "name": "Folyamatok • ok 04",
+      "text": "Sok manuális lépés",
+      "category": "Folyamatok",
+      "mesh_object": "Folyamatok • ok 04",
+      "editable_object": "EDIT | Folyamatok • ok 04"
+    },
+    {
+      "name": "Eszközök • ok 01",
+      "text": "Különálló rendszerek\n(pl. Neptun, Moodle)",
+      "category": "Eszközök",
+      "mesh_object": "Eszközök • ok 01",
+      "editable_object": "EDIT | Eszközök • ok 01"
+    },
+    {
+      "name": "Eszközök • ok 02",
+      "text": "Lassú, gyakori rendszerhibák",
+      "category": "Eszközök",
+      "mesh_object": "Eszközök • ok 02",
+      "editable_object": "EDIT | Eszközök • ok 02"
+    },
+    {
+      "name": "Eszközök • ok 03",
+      "text": "Nem felhasználóbarát felület",
+      "category": "Eszközök",
+      "mesh_object": "Eszközök • ok 03",
+      "editable_object": "EDIT | Eszközök • ok 03"
+    },
+    {
+      "name": "Eszközök • ok 04",
+      "text": "Hiányos valós idejű\ninformációk",
+      "category": "Eszközök",
+      "mesh_object": "Eszközök • ok 04",
+      "editable_object": "EDIT | Eszközök • ok 04"
+    },
+    {
+      "name": "Külső környezet • ok 01",
+      "text": "Gyakori szabályváltozások",
+      "category": "Külső környezet",
+      "mesh_object": "Külső környezet • ok 01",
+      "editable_object": "EDIT | Külső környezet • ok 01"
+    },
+    {
+      "name": "Külső környezet • ok 02",
+      "text": "Szűkös terem- és kapacitáskeretek",
+      "category": "Külső környezet",
+      "mesh_object": "Külső környezet • ok 02",
+      "editable_object": "EDIT | Külső környezet • ok 02"
+    },
+    {
+      "name": "Külső környezet • ok 03",
+      "text": "Intézményi előírások,\nhatáridők",
+      "category": "Külső környezet",
+      "mesh_object": "Külső környezet • ok 03",
+      "editable_object": "EDIT | Külső környezet • ok 03"
+    },
+    {
+      "name": "Külső környezet • ok 04",
+      "text": "Rövid féléves időszak",
+      "category": "Külső környezet",
+      "mesh_object": "Külső környezet • ok 04",
+      "editable_object": "EDIT | Külső környezet • ok 04"
+    },
+    {
+      "name": "Szervezet • ok 01",
+      "text": "Nem egységes tájékoztatás",
+      "category": "Szervezet",
+      "mesh_object": "Szervezet • ok 01",
+      "editable_object": "EDIT | Szervezet • ok 01"
+    },
+    {
+      "name": "Szervezet • ok 02",
+      "text": "Lassú, nehezen elérhető\nügyintézés",
+      "category": "Szervezet",
+      "mesh_object": "Szervezet • ok 02",
+      "editable_object": "EDIT | Szervezet • ok 02"
+    },
+    {
+      "name": "Szervezet • ok 03",
+      "text": "Hiányos belső kommunikáció",
+      "category": "Szervezet",
+      "mesh_object": "Szervezet • ok 03",
+      "editable_object": "EDIT | Szervezet • ok 03"
+    },
+    {
+      "name": "Szervezet • ok 04",
+      "text": "Nem világos felelősségi körök",
+      "category": "Szervezet",
+      "mesh_object": "Szervezet • ok 04",
+      "editable_object": "EDIT | Szervezet • ok 04"
+    },
+    {
+      "name": "Eredmény • zavaros kurzusfelvétel",
+      "text": "Zavaros,\nnehézkes\nkurzusfelvétel",
+      "category": "",
+      "mesh_object": "Eredmény • zavaros kurzusfelvétel",
+      "editable_object": "EDIT | Eredmény • zavaros kurzusfelvétel"
+    }
+  ],
+  "geometry": [
+    {
+      "object": "Papír | 640 × 363 mm | 3 641 344 háromszög",
+      "vertices": 1823481,
+      "triangles": 3641344
+    },
+    {
+      "object": "Papír | 0,32 mm él és hátlap",
+      "vertices": 11233,
+      "triangles": 16848
+    },
+    {
+      "object": "Gerinc | vízszintes sötétkék tengely",
+      "vertices": 11830,
+      "triangles": 23656
+    },
+    {
+      "object": "Halfarok | telt kék filctoll",
+      "vertices": 4,
+      "triangles": 2
+    },
+    {
+      "object": "Halfarok | kézi kontúr 1",
+      "vertices": 1230,
+      "triangles": 2456
+    },
+    {
+      "object": "Halfarok | kézi kontúr 2",
+      "vertices": 1170,
+      "triangles": 2336
+    },
+    {
+      "object": "Halfarok | kézi kontúr 3",
+      "vertices": 840,
+      "triangles": 1676
+    },
+    {
+      "object": "Halfarok | kézi kontúr 4",
+      "vertices": 910,
+      "triangles": 1816
+    },
+    {
+      "object": "Halfej | világoskék satírozás",
+      "vertices": 23101,
+      "triangles": 45430
+    },
+    {
+      "object": "Halfej | sötétkék körvonal",
+      "vertices": 5810,
+      "triangles": 11616
+    },
+    {
+      "object": "Halfej | egyenes bal oldal",
+      "vertices": 1890,
+      "triangles": 3776
+    },
+    {
+      "object": "Ember | keret 1",
+      "vertices": 2980,
+      "triangles": 5956
+    },
+    {
+      "object": "Ember | keret 2",
+      "vertices": 1000,
+      "triangles": 1996
+    },
+    {
+      "object": "Ember | keret 3",
+      "vertices": 3010,
+      "triangles": 6016
+    },
+    {
+      "object": "Ember | keret 4",
+      "vertices": 1030,
+      "triangles": 2056
+    },
+    {
+      "object": "Ember | kategóriaág",
+      "vertices": 4640,
+      "triangles": 9276
+    },
+    {
+      "object": "Ember | fő csomópont",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Ember | okjelölő 1",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Ember | okjelölő 2",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Ember | okjelölő 3",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Ember | okjelölő 4",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Folyamatok | keret 1",
+      "vertices": 3220,
+      "triangles": 6436
+    },
+    {
+      "object": "Folyamatok | keret 2",
+      "vertices": 1030,
+      "triangles": 2056
+    },
+    {
+      "object": "Folyamatok | keret 3",
+      "vertices": 3220,
+      "triangles": 6436
+    },
+    {
+      "object": "Folyamatok | keret 4",
+      "vertices": 1030,
+      "triangles": 2056
+    },
+    {
+      "object": "Folyamatok | kategóriaág",
+      "vertices": 4500,
+      "triangles": 8996
+    },
+    {
+      "object": "Folyamatok | fő csomópont",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Folyamatok | okjelölő 1",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Folyamatok | okjelölő 2",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Folyamatok | okjelölő 3",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Folyamatok | okjelölő 4",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Eszközök | keret 1",
+      "vertices": 3700,
+      "triangles": 7396
+    },
+    {
+      "object": "Eszközök | keret 2",
+      "vertices": 1030,
+      "triangles": 2056
+    },
+    {
+      "object": "Eszközök | keret 3",
+      "vertices": 3730,
+      "triangles": 7456
+    },
+    {
+      "object": "Eszközök | keret 4",
+      "vertices": 1060,
+      "triangles": 2116
+    },
+    {
+      "object": "Eszközök | kategóriaág",
+      "vertices": 4490,
+      "triangles": 8976
+    },
+    {
+      "object": "Eszközök | fő csomópont",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Eszközök | okjelölő 1",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Eszközök | okjelölő 2",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Eszközök | okjelölő 3",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Eszközök | okjelölő 4",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Külső környezet | keret 1",
+      "vertices": 4390,
+      "triangles": 8776
+    },
+    {
+      "object": "Külső környezet | keret 2",
+      "vertices": 1150,
+      "triangles": 2296
+    },
+    {
+      "object": "Külső környezet | keret 3",
+      "vertices": 4420,
+      "triangles": 8836
+    },
+    {
+      "object": "Külső környezet | keret 4",
+      "vertices": 1180,
+      "triangles": 2356
+    },
+    {
+      "object": "Külső környezet | kategóriaág",
+      "vertices": 4770,
+      "triangles": 9536
+    },
+    {
+      "object": "Külső környezet | okjelölő 1",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Külső környezet | okjelölő 2",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Külső környezet | okjelölő 3",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Külső környezet | okjelölő 4",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Szervezet | keret 1",
+      "vertices": 4000,
+      "triangles": 7996
+    },
+    {
+      "object": "Szervezet | keret 2",
+      "vertices": 1090,
+      "triangles": 2176
+    },
+    {
+      "object": "Szervezet | keret 3",
+      "vertices": 3970,
+      "triangles": 7936
+    },
+    {
+      "object": "Szervezet | keret 4",
+      "vertices": 1090,
+      "triangles": 2176
+    },
+    {
+      "object": "Szervezet | kategóriaág",
+      "vertices": 4400,
+      "triangles": 8796
+    },
+    {
+      "object": "Szervezet | okjelölő 1",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Szervezet | okjelölő 2",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Szervezet | okjelölő 3",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Szervezet | okjelölő 4",
+      "vertices": 129,
+      "triangles": 128
+    },
+    {
+      "object": "Vállalatnév • KurzusKáosz Kft.",
+      "vertices": 63850,
+      "triangles": 102104
+    },
+    {
+      "object": "Ember • cím",
+      "vertices": 19390,
+      "triangles": 31012
+    },
+    {
+      "object": "Ember • alcím",
+      "vertices": 73350,
+      "triangles": 117304
+    },
+    {
+      "object": "Folyamatok • cím",
+      "vertices": 37630,
+      "triangles": 60184
+    },
+    {
+      "object": "Folyamatok • alcím",
+      "vertices": 84390,
+      "triangles": 134956
+    },
+    {
+      "object": "Eszközök • cím",
+      "vertices": 37030,
+      "triangles": 59208
+    },
+    {
+      "object": "Eszközök • alcím",
+      "vertices": 105610,
+      "triangles": 168884
+    },
+    {
+      "object": "Külső környezet • cím",
+      "vertices": 61850,
+      "triangles": 98896
+    },
+    {
+      "object": "Külső környezet • alcím",
+      "vertices": 110900,
+      "triangles": 177356
+    },
+    {
+      "object": "Szervezet • cím",
+      "vertices": 35540,
+      "triangles": 56840
+    },
+    {
+      "object": "Szervezet • alcím",
+      "vertices": 96660,
+      "triangles": 154556
+    },
+    {
+      "object": "Ember • ok 01",
+      "vertices": 84190,
+      "triangles": 134632
+    },
+    {
+      "object": "Ember • ok 02",
+      "vertices": 137120,
+      "triangles": 219280
+    },
+    {
+      "object": "Ember • ok 03",
+      "vertices": 70690,
+      "triangles": 113040
+    },
+    {
+      "object": "Ember • ok 04",
+      "vertices": 109480,
+      "triangles": 175080
+    },
+    {
+      "object": "Folyamatok • ok 01",
+      "vertices": 186730,
+      "triangles": 298616
+    },
+    {
+      "object": "Folyamatok • ok 02",
+      "vertices": 107650,
+      "triangles": 172160
+    },
+    {
+      "object": "Folyamatok • ok 03",
+      "vertices": 136350,
+      "triangles": 218064
+    },
+    {
+      "object": "Folyamatok • ok 04",
+      "vertices": 71090,
+      "triangles": 113688
+    },
+    {
+      "object": "Eszközök • ok 01",
+      "vertices": 146620,
+      "triangles": 234476
+    },
+    {
+      "object": "Eszközök • ok 02",
+      "vertices": 103260,
+      "triangles": 165132
+    },
+    {
+      "object": "Eszközök • ok 03",
+      "vertices": 112090,
+      "triangles": 179260
+    },
+    {
+      "object": "Eszközök • ok 04",
+      "vertices": 115200,
+      "triangles": 184200
+    },
+    {
+      "object": "Külső környezet • ok 01",
+      "vertices": 98000,
+      "triangles": 156724
+    },
+    {
+      "object": "Külső környezet • ok 02",
+      "vertices": 129660,
+      "triangles": 207352
+    },
+    {
+      "object": "Külső környezet • ok 03",
+      "vertices": 116520,
+      "triangles": 186312
+    },
+    {
+      "object": "Külső környezet • ok 04",
+      "vertices": 83700,
+      "triangles": 133848
+    },
+    {
+      "object": "Szervezet • ok 01",
+      "vertices": 104330,
+      "triangles": 166860
+    },
+    {
+      "object": "Szervezet • ok 02",
+      "vertices": 132060,
+      "triangles": 211180
+    },
+    {
+      "object": "Szervezet • ok 03",
+      "vertices": 98260,
+      "triangles": 157120
+    },
+    {
+      "object": "Szervezet • ok 04",
+      "vertices": 114530,
+      "triangles": 183148
+    },
+    {
+      "object": "Eredmény • zavaros kurzusfelvétel",
+      "vertices": 125920,
+      "triangles": 201380
+    },
+    {
+      "object": "Asztal | semleges stúdióháttér",
+      "vertices": 4,
+      "triangles": 2
+    }
+  ]
+}

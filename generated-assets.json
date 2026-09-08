@@ -1,0 +1,66 @@
+{
+  "description": "Blender generated build assets; source is in model-source. The deployment archive embeds these exact files.",
+  "release": "model-v1",
+  "files": [
+    {
+      "path": "public/models/Hal_3D.glb",
+      "bytes": 21076620,
+      "sha256": "86b682c99db796c68bc606c27dd9db2a0e1bd2cc3500c47299efdc0bc93c1371"
+    },
+    {
+      "path": "public/models/Hal_story_bare.glb",
+      "bytes": 21958564,
+      "sha256": "197bfb39bbbee3896772911c5833d4f5e277843a905089041041a757be0057e2"
+    },
+    {
+      "path": "public/models/modell_adatok.json",
+      "bytes": 5456,
+      "sha256": "7fd300b9c2970ebfd508f3d34e12d1584239dc1775a3936684a5d2a41bca146d"
+    },
+    {
+      "path": "public/images/Hal_3D_atlatszo.png",
+      "bytes": 4883538,
+      "sha256": "91373f27786c9d429c7a62eb9de9438c5bba5ccdf01bef1f7733ca80e7e76b00"
+    },
+    {
+      "path": "public/images/Hal_feliratokkal.png",
+      "bytes": 8547893,
+      "sha256": "b8881766296e795f1fba35c405c24b9af86aabafb6f66bacaa49e6452660e1ba"
+    },
+    {
+      "path": "public/downloads/hal-obj-00.part",
+      "bytes": 20971520,
+      "sha256": "03be65da4125851c18bc6c29ff6da369246ea867158764854bc9cea90fa73aa8"
+    },
+    {
+      "path": "public/downloads/hal-obj-01.part",
+      "bytes": 20971520,
+      "sha256": "afe9c361561b8aa994fd9288f883a6713de9d4e2b637a8ff75f491a3d2d4a947"
+    },
+    {
+      "path": "public/downloads/hal-obj-02.part",
+      "bytes": 20971520,
+      "sha256": "ef3c574c4c2fd53dcf5eb017397b24f6b83ab239464023b94edd667532a0f6db"
+    },
+    {
+      "path": "public/downloads/hal-obj-03.part",
+      "bytes": 20971520,
+      "sha256": "bbe2c53ca9e875871395803fea57b3f9e743adae4ae953aba5a6f9acf43ac090"
+    },
+    {
+      "path": "public/downloads/hal-obj-04.part",
+      "bytes": 20971520,
+      "sha256": "8cd50065202139335906df0305d860580f0f1a21e396d8f64cdcc0df55802408"
+    },
+    {
+      "path": "public/downloads/hal-obj-05.part",
+      "bytes": 4642206,
+      "sha256": "e3e76dfb18096a7490d426aab45e906fec24e332eb77fb6ed7c502cce0591d1a"
+    },
+    {
+      "path": "public/downloads/obj-manifest.json",
+      "bytes": 303,
+      "sha256": "4ed790465d14221dd5f3697bfdfa9ee8773e0dc14d33229c0939a332887ecae3"
+    }
+  ]
+}
