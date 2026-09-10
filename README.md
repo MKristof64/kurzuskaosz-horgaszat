@@ -2,12 +2,13 @@
 
 Görgethető, magyar nyelvű 3D horgásztörténet és térbeli Ishikawa-diagram. A hal a szájánál kapcsolódó zsinóron emelkedik ki a vízből, majd fejjel felfelé lóg. Az öt okcsoport vastag, háttér nélküli térbeli betűi fokozatosan jelennek meg körülötte.
 
-[Weboldal](https://kurzuskaosz-hal-3d.kristof-madarasz159.chatgpt.site) · [Modellfájlok](https://github.com/MKristof64/kurzuskaosz-horgaszat/releases/tag/model-v1)
+[Nyilvános GitHub Pages weboldal](https://mkristof64.github.io/kurzuskaosz-horgaszat/) · [Modellfájlok](https://github.com/MKristof64/kurzuskaosz-horgaszat/releases/tag/model-v1)
 
-- Természetes olíva, nád, homok és bronz színek; animált vízfelszín, horgászbot, zsinór, úszó és vízcseppek.
+- Összehangolt smaragd, erdőzöld, nád és arany színek; animált vízfelszín, horgászbot, zsinór, úszó és vízcseppek.
 - Öt kategória és az eredeti húsz ok; összesen 32 eredeti magyar szövegblokk.
 - Szabadon forgatható teljes diagram, OBJ- és PNG-letöltések; külön modellnézegető a `/modell` útvonalon.
-- A hal 3 676 000 háromszögből áll. A háttér nélküli webes modell 4 717 710 háromszög, a betűk mélysége körülbelül 3,6 mm a modell léptékében.
+- A hal 3 676 000 háromszögből áll. A teljes háttér nélküli modell 4 717 710 háromszög, a betűk mélysége körülbelül 3,6 mm a modell léptékében.
+- A történethez 2,03 MB-os, 629 470 háromszöges böngészős változat töltődik be: 90,8%-kal kevesebb adat. Megmaradt mind a 32 térbeli szövegblokk. A teljes modell a modellnézegetőben és letöltésként érhető el.
 - Mobilos elrendezés, csökkentett mozgás támogatása, látható fókuszjelölések és 3D-betöltési hibára PNG-tartalék.
 
 ## Helyi indítás
@@ -29,6 +30,14 @@ pnpm build
 ```
 
 A build a generált állományok ellenőrzése után készít Vinext/Cloudflare Worker-kimenetet. A Sites-feltöltés archívuma ezeket a pontos modelleket, képeket és OBJ-letöltési részeket tartalmazza.
+
+## GitHub Pages kiadás
+
+A main ágra feltöltött változatot a `.github/workflows/pages.yml` ellenőrzi és nyilvánosan publikálja. Node 22 LTS alatt a `pnpm build:pages` elkészíti a `dist/pages` könyvtárat. A `node scripts/check-pages.mjs` ellenőrzi a két oldal és a helyi hivatkozások meglétét. A kiadás nem igényel futó szervert.
+
+A projektútvonalat az `assetUrl()` segéd és az assetPrefix kezeli. Az oldalak közötti hagyományos hivatkozások statikus tárhelyen is működnek.
+
+A gyors modell előállítása: glTF Transform 4.5.0, Draco, 0.12 egyszerűsítési arány, 0.001 geometriai hibatűrés, megtartott élek és csomópontok, 2048 képpontos WebP textúra. Az eredeti Blender/OBJ-fájlok változatlanok.
 
 ## Modellforrás és tartalom
 

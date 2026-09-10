@@ -61,6 +61,11 @@
       "path": "public/downloads/obj-manifest.json",
       "bytes": 303,
       "sha256": "4ed790465d14221dd5f3697bfdfa9ee8773e0dc14d33229c0939a332887ecae3"
+    },
+    {
+      "path": "public/models/Hal_story_web.glb",
+      "bytes": 2030880,
+      "sha256": "feee2c6da4f332b1116a5580c83ffe260663304653387a6b6734008f1fab164c"
     }
   ]
 }

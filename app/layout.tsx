@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Cormorant_Garamond, Manrope } from 'next/font/google';
 import './globals.css';
+import {assetUrl} from './asset-url';
 
 const geistSans = Manrope({
   variable: '--font-body',
@@ -15,6 +16,7 @@ const geistMono = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  icons: {icon: assetUrl('/favicon.svg')},
   title: 'KurzusKáosz — Kifogjuk az okokat',
   description: 'Kapás van. Kurzus még nincs. Görgethető 3D horgásztörténet, amely a víz felszínére hozza a kurzusfelvétel húsz okát. Ishikawa-diagram, egy kicsit másképp.',
 };
