@@ -1,4 +1,5 @@
 'use client';
+/* oxlint-disable nextjs/no-img-element -- Static Pages serves this error-only PNG directly; no image server is available. */
 import {assetUrl} from './asset-url';
 import {useEffect,useRef,useState} from 'react';
 import {ArrowDown,ArrowUpRight,ArrowUp,Download,Fish,Move3D,RotateCcw,Anchor,Check,LoaderCircle} from 'lucide-react';
